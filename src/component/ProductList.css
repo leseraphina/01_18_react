@@ -1,0 +1,17 @@
+figure{
+  width:800px;
+  margin: 0 auto 30px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border:2px solid #666;
+}
+figure>img{
+  width:200px;
+}
+figure>figcaption{
+  width:580px;
+}
+figure>figcaption dl>dd:last-child{
+  padding:15px 0;
+}
